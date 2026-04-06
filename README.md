@@ -2,3 +2,4 @@ Hello, if you wonder if you can run this app (more like a script) on linux -you 
 
 Libraries you need to install: tkinter, pillow (pil), pyowm
 (This script works on linux too, artem just forked it for no reason)
+stfu bro, .ico doesn't work on linux with tkinter -only .png
