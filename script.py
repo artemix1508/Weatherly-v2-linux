@@ -7,11 +7,9 @@ root = tk.Tk()
 root.configure(bg="#00008B")
 root.attributes("-fullscreen", True)
 root.title("Weatherly")
-root.iconbitmap("Images/icon.ico")
 map_widget = TkinterMapView(root, width=800, height=600, corner_radius=0)
 map_widget.pack(fill="both", expand=True)
-
-# Set default position (London) and zoom level
-map_widget.set_position(51.5074, -0.1278) 
+map_widget.set_position(51.5074, -0.1278)
 map_widget.set_zoom(5)
+map_widget.pack_forget()
 root.mainloop()
