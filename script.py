@@ -7,7 +7,11 @@ root = tk.Tk()
 root.configure(bg="#00008B")
 root.attributes("-fullscreen", True)
 root.title("Weatherly")
-root.iconbitmap("Images/icon.ico")
+try:
+    icon = tk.PhotoImage(file="Images/icon.png")
+    root.iconphoto(True, icon)
+except:
+    pass
 map_widget = TkinterMapView(root, width=800, height=600, corner_radius=0)
 map_widget.pack(fill="both", expand=True)
 
