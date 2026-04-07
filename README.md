@@ -1,6 +1,6 @@
-# Weatherly v2 - Linux Fork
+# Weatherly v2
 
-The official Linux version of [Weatherly v2](https://github.com/Wjanek13/Weatherly-v2).
+A weather app built with Python and tkinter.
 
 ## Requirements
 - Python 3.x
@@ -9,18 +9,12 @@ The official Linux version of [Weatherly v2](https://github.com/Wjanek13/Weather
 - requests
 
 ## Installation
-```bash
+```
 pip install pyowm pillow requests
 ```
-
 ## Usage
-```bash
+```
 python script.py
 ```
-
-## Credits
-- Original app by [Wjanek13](https://github.com/Wjanek13)
-- Linux port maintained by [artemix1508](https://github.com/artemix1508)
-
-  
-<img width="1280" height="640" alt="WeatherlyForLinuxWithTux" src="https://github.com/user-attachments/assets/0e114c4b-6f97-4282-86a7-ad3442bd1624" />
+## Linux Version
+For the Linux fork, see [Weatherly-v2-linux](https://github.com/artemix1508/Weatherly-v2-linux)<img width="1280" height="640" alt="Weatherly png" src="https://github.com/user-attachments/assets/a75bec90-a9ad-447d-9400-e459077c11f5" />
