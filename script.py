@@ -85,6 +85,7 @@ tk_logo = load_img(r"Images/Logo.png", 0.6)
 tk_quit = load_img(r"Images/Quit.png", 0.35)
 tk_settings = load_img(r"Images/Settings.png", 0.35)
 tk_back = load_img(r"Images/back.png", 0.35)
+tk_search = load_img(r"Images/search.png", 0.7)
 
 # --- MENU WIDGETS ---
 logo_lbl = tk.Label(menu_frame, image=tk_logo, bg=bg_color)
@@ -117,6 +118,16 @@ settings_back_button = tk.Button(
     borderwidth=0, 
     highlightthickness=0
 )
+search_button = tk.Button(
+    menu_frame, 
+    image=tk_search,
+    bg=bg_color,
+    activebackground=bg_color,
+    borderwidth=0,
+    highlightthickness=0
+)
+search_button.image = tk_search
+search_button.place(relx=0.8, rely=0.55, anchor="center")
 settings_label = tk.Label(settings_frame,
     image=tk_settings,
     bg=bg_color,
