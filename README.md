@@ -1,5 +1,3 @@
-Hello, if you wonder if you can run this app (more like a script) on linux -you can. We provide a native linux version. Here's the linux fork: https://github.com/artemix1508/Weatherly-v2-linux
-
-Libraries you need to install: tkinter, pillow (pil), pyowm
-
-<img width="1280" height="640" alt="Weatherly png" src="https://github.com/user-attachments/assets/e00a60a6-4f04-40c4-8c42-52d362fe0039" />
+Hello, you've probably clicked on the link from the official Weatherly version. So, this is the linux version of Weatherly.
+We hope that you like using our app!
+<img width="1280" height="640" alt="WeatherlyForLinuxWithTux" src="https://github.com/user-attachments/assets/76e7c8f5-ec14-45a4-acb1-7156e65c6a59" />
