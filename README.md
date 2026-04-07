@@ -6,16 +6,11 @@ A weather app built with Python and tkinter.
 - Python 3.x
 - pyowm
 - Pillow
-- requests
 
 ## Installation
-pip install pyowm pillow requests
+pip install pyowm pillow
 
 ## Usage
 python script.py
-
-## Linux Version
-For the Linux fork, see [Weatherly-v2-linux](https://github.com/artemix1508/Weatherly-v2-linux)
-
 
 <img width="1280" height="640" alt="Weatherly png" src="https://github.com/user-attachments/assets/b8ed55b0-53af-4210-a503-e0a28bda971a" />
