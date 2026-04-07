@@ -1,3 +1,26 @@
-Hello, you've probably clicked on the link from the official Weatherly version. So, this is the linux version of Weatherly.
-We hope that you like using our app!
-<img width="1280" height="640" alt="WeatherlyForLinuxWithTux" src="https://github.com/user-attachments/assets/76e7c8f5-ec14-45a4-acb1-7156e65c6a59" />
+# Weatherly v2 - Linux Fork
+
+The official Linux port of [Weatherly v2](https://github.com/Wjanek13/Weatherly-v2).
+
+## Requirements
+- Python 3.x
+- pyowm
+- Pillow
+- requests
+
+## Installation
+```bash
+pip install pyowm pillow requests
+```
+
+## Usage
+```bash
+python script.py
+```
+
+## Credits
+- Original app by [Wjanek13](https://github.com/Wjanek13)
+- Linux port maintained by [artemix1508](https://github.com/artemix1508)
+
+  
+<img width="1280" height="640" alt="WeatherlyForLinuxWithTux" src="https://github.com/user-attachments/assets/0e114c4b-6f97-4282-86a7-ad3442bd1624" />
