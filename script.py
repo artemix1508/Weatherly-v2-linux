@@ -2,16 +2,18 @@ import tkinter as tk
 from pyowm import OWM
 from PIL import Image, ImageTk
 import requests, json, os, pyglet, ctypes
+import subprocess
 
 def load_font(font_path):
-    ctypes.windll.gdi32.AddFontResourceExW(font_path, 0x10, 0)
+    """Load a custom font on Linux using fc-cache"""
+    try:
+        font_abs = os.path.abspath(font_path)
+        font_dir = os.path.dirname(font_abs)
+        subprocess.run(["fc-cache", "-f", font_dir], check=False, capture_output=True)
+    except Exception as e:
+        print(f"Font load warning: {e}")
 
 load_font('PixeloramaFont.ttf')
-try:
-    pyglet.font.add_file('PixeloramaFont.ttf')
-except:
-    pass
-
 API_KEY = "903c7b602f35c53a208eac1477998b99"
 owm = OWM(API_KEY)
 metric_selected = ""

@@ -1,0 +1,7 @@
+[project]
+name = "weatherly-v2-linux"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "pyowm>=3.5.0",
+]
